@@ -1,0 +1,20 @@
+{
+  "client_id": "https://cdn.jsdelivr.net/gh/melkrawina/cursor-elevenlabs-mcp-oauth@main/oauth-client.json",
+  "client_name": "Cursor",
+  "client_uri": "https://cursor.com",
+  "redirect_uris": [
+    "http://localhost:8787/callback",
+    "http://127.0.0.1:8787/callback",
+    "https://www.cursor.com/agents/mcp/oauth/callback",
+    "cursor://anysphere.cursor-mcp/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "application_type": "native"
+}
